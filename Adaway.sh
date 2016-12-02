@@ -6,8 +6,8 @@
 
 TMP_WORK_PATH="/tmp/.AdAway"
 count=0
-host_sources="http://hosts-file.net/ad_servers.txt
-http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+host_sources="https://hosts-file.net/ad_servers.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
 http://winhelp2002.mvps.org/hosts.txt
 https://adaway.org/hosts.txt"
 
