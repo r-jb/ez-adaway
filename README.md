@@ -28,7 +28,7 @@ Add this line to your shell `.*rc` configuration file.
 e.g: add this to your `.bashrc`, if your shell is `bash`:
 
 ```sh
-alias adaway="$(curl -fsSL https://github.com/r-jb/ez-adaway/raw/main/adaway.sh | sh)"
+alias adaway="$(curl -fsSL https://raw.githubusercontent.com/r-jb/ez-adaway/main/adaway.sh | sh)"
 ```
 
 ### Method 2: Download the script and run it
@@ -36,7 +36,7 @@ alias adaway="$(curl -fsSL https://github.com/r-jb/ez-adaway/raw/main/adaway.sh 
 Using `wget`:
 
 ```sh
-wget https://github.com/r-jb/ez-adaway/raw/main/adaway.sh
+wget https://raw.githubusercontent.com/r-jb/ez-adaway/main/adaway.sh
 chmod +x adaway.sh
 ./adaway.sh
 ```
@@ -44,7 +44,7 @@ chmod +x adaway.sh
 Using `curl`:
 
 ```sh
-curl -O https://github.com/r-jb/ez-adaway/raw/main/adaway.sh
+curl -O https://raw.githubusercontent.com/r-jb/ez-adaway/main/adaway.sh
 chmod +x adaway.sh
 ./adaway.sh
 ```
